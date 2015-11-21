@@ -29,4 +29,4 @@
     </item>
     <item android:drawable="@android:color/transparent" />
 </selector>
-<!-- From: file:/D:/android/study/udacity/MDforAndDevs/P5MaterialDesign/xyzreader/src/main/res/drawable/white_selectable_item_background_circle.xml -->
+<!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/drawable/white_selectable_item_background_circle.xml -->

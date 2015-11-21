@@ -4,4 +4,4 @@
         <solid android:color="#1E000000" />
         <size android:width="1dp" android:height="1dp" />
     </shape>
-</inset><!-- From: file:/D:/android/study/udacity/MDforAndDevs/P5MaterialDesign/xyzreader/src/main/res/drawable/padded_divider.xml -->
+</inset><!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/drawable/padded_divider.xml -->

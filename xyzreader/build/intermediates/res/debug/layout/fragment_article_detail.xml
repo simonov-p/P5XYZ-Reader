@@ -105,4 +105,4 @@
         android:contentDescription="@string/action_share" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
-<!-- From: file:/D:/android/study/udacity/MDforAndDevs/P5MaterialDesign/xyzreader/src/main/res/layout/fragment_article_detail.xml -->
+<!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/layout/fragment_article_detail.xml -->
