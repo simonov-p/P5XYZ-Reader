@@ -7,6 +7,8 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/appbar_height"
+        android:theme="@style/Theme.Bacon"
+        app:elevation="@dimen/appbar_elevation"
         android:background="?colorPrimary">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -14,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
-            app:expandedTitleMarginStart="72dp"
+            app:expandedTitleMarginStart="@dimen/toolbar_start_margin"
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
@@ -23,8 +25,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 android:layout_gravity="bottom"
-                android:layout_marginLeft="@dimen/list_toolbar_side_margin"
-                android:layout_marginRight="@dimen/list_toolbar_side_margin"
                 app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
                 <ImageView
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
-            android:paddingBottom="28dp"
+            android:paddingBottom="@dimen/list_side_bottom_margin"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
             android:scrollbarStyle="outsideOverlay" />

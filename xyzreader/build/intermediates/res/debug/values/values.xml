@@ -255,9 +255,9 @@
     <dimen name="fab_content_size">24dp</dimen>
     <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
-    <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
     <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_size_mini">40dp</dimen>
@@ -266,6 +266,9 @@
     <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="list_side_bottom_margin">28dp</dimen>
     <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <dimen name="list_side_margin">4dp</dimen>
@@ -301,6 +304,9 @@
     <dimen name="snackbar_text_size">14sp</dimen>
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_min_width">72dp</dimen>
+    <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="toolbar_start_margin">72dp</dimen>
     <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
@@ -1578,7 +1584,7 @@
     </style>
     <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.Bacon" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/theme_primary</item>
         <item name="colorPrimaryDark">@color/theme_primary_dark</item>
         <item name="colorAccent">@color/theme_accent</item>
