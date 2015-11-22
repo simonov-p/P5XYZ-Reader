@@ -102,28 +102,10 @@
         android:contentDescription="@string/action_share"
         app:layout_anchorGravity="bottom|right|end"
         android:layout_gravity="bottom|end"
+        app:pressedTranslationZ="12dp"
+        app:elevation="6dp"
         android:layout_marginRight="@dimen/fab_margin"
-        android:stateListAnimator="@anim/fab_state_list_anim"
         android:layout_marginBottom="@dimen/fab_margin"/>
-
-    <!--app:borderWidth="0dp"-->
-    <!--app:pressedTranslationZ="12dp"-->
-    <!--app:elevation="6dp"-->
-
-
-    <!--android:stateListAnimator="@anim/fab_state_list_anim"-->
-
-    <!--<ImageButton android:id="@+id/share_fab"-->
-        <!--android:stateListAnimator="@anim/fab_state_list_anim"-->
-        <!--android:background="@drawable/add_fab_background"-->
-        <!--android:layout_gravity="bottom|end"-->
-        <!--android:layout_marginRight="@dimen/fab_margin"-->
-        <!--android:layout_marginBottom="@dimen/fab_margin"-->
-        <!--android:layout_width="56dp"-->
-        <!--android:layout_height="56dp"-->
-        <!--android:src="@drawable/ic_share"-->
-        <!--android:elevation="@dimen/fab_elevation"-->
-        <!--android:contentDescription="@string/action_share" />-->
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
 <!-- From: file:/D:/android/study/udacity/P5XYZReader/xyzreader/src/main/res/layout/fragment_article_detail.xml -->
