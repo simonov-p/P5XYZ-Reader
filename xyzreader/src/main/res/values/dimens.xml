@@ -14,5 +14,7 @@
     <dimen name="margin_from_appbar">116dp</dimen>
     <dimen name="list_side_bottom_margin">28dp</dimen>
     <dimen name="toolbar_start_margin">72dp</dimen>
+    <dimen name="side_padding">16dp</dimen>
+    <dimen name="small_padding">4dp</dimen>
 
 </resources>
