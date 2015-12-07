@@ -121,6 +121,7 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         mScrollView = (ObservableScrollView) mRootView.findViewById(R.id.scrollview);
+
         mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
             @Override
             public void onScrollChanged() {
@@ -133,6 +134,8 @@ public class ArticleDetailFragment extends Fragment implements
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
         mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
+
+        mScrollView.setPadding(0,mPhotoContainerView.getHeight(),0,0);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
 
@@ -167,7 +170,7 @@ public class ArticleDetailFragment extends Fragment implements
     }
 
     static float progress(float v, float min, float max) {
-        return constrain((v - min) / (max - min), 0, 1);
+        return constrain((v - min) / (max - min), min, max);
     }
 
     static float constrain(float val, float min, float max) {

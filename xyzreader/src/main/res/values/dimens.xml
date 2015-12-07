@@ -16,5 +16,7 @@
     <dimen name="toolbar_start_margin">72dp</dimen>
     <dimen name="side_padding">16dp</dimen>
     <dimen name="small_padding">4dp</dimen>
+    <dimen name="detail_photo_max_height">300dp</dimen>
+    <dimen name="detail_card_top_margin">100dp</dimen>
 
 </resources>
